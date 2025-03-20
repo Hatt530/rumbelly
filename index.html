@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ride Share</title>
+</head>
+<body>
+    <h1>Ride Share Platform</h1>
+
+    <!-- Rider and Driver Buttons -->
+    <button id="riderBtn">Rider</button>
+    <button id="driverBtn">Driver</button>
+
+    <!-- Rider Form -->
+    <div id="riderForm" style="display: none;">
+        <h2>Rider Form</h2>
+        <form id="riderFormElement">
+            <label for="riderName">Your Name:</label>
+            <input type="text" id="riderName" required><br><br>
+
+            <label for="pickupLocation">Pickup Location:</label>
+            <input type="text" id="pickupLocation" required><br><br>
+
+            <label for="destination">Destination:</label>
+            <input type="text" id="destination" required><br><br>
+
+            <label for="riderPhone">Phone Number:</label>
+            <input type="text" id="riderPhone" required><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- Rider's Submitted Ride Info (This will appear after the rider submits the form) -->
+    <div id="riderInfoSection" style="display: none;"></div>
+
+    <!-- Driver Form -->
+    <div id="driverForm" style="display: none;">
+        <h2>Driver Form</h2>
+        <form id="driverFormElement">
+            <label for="driverName">Driver Name:</label>
+            <input type="text" id="driverName" required><br><br>
+            <button type="submit">Enter</button>
+        </form>
+    </div>
+
+    <!-- Available Rides for Drivers -->
+    <div id="availableRides" style="display: none;">
+        <h2>Available Rides</h2>
+        <ul id="ridesList"></ul>
+    </div>
+
+    <!-- Link to external JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

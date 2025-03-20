@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-container {
+    margin-top: 20px;
+}
+
+form input {
+    padding: 8px;
+    margin: 10px;
+    width: 200px;
+}
+
+form button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#availableRides ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#availableRides li {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin: 5px;
+}
+
+button.message, button.call {
+    padding: 5px 10px;
+    margin-top: 5px;
+}
